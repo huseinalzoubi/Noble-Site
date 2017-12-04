@@ -1,0 +1,257 @@
+@charset "utf-8";
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0 ;
+	padding-bottom: 15px;
+	background-color: #E4E4E4;
+	font-size: 1.7em;
+}
+
+body p {
+	font-size: 1.2em;
+}
+
+
+#header-nav {
+	border: 0;
+	border-radius: 0;
+	margin: 0;
+	background-color: #E4E4E4;
+}
+
+/*.carousel-caption{
+	top: 50%;
+	transform: translateY(-50%);
+}*/
+
+
+#logo-img {
+	background-repeat: no-repeat;
+	background-image: url(../images/noble%20logo%20small.png);
+	width: 135px;
+	height: 115px;
+	margin-top: 15px;
+	margin-right: 15px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	
+}
+.Soap1 {
+	background: url(../images/ClassicAleppo.jpg) no-repeat;
+}
+.Soap2 {
+	background: url(../images/L%27ODEUR%20DE%20NOBLE%20SOAP.jpg) no-repeat;
+}
+.Soap3 {
+	background: url(../images/NOBLE%20LAUREL%20SOAP.jpg) no-repeat;
+}
+.Soap4 {
+	background-repeat: no-repeat;
+	background-image: url(../images/Arabiannight.jpg);
+}
+.Soap5 {
+	background-repeat: no-repeat;
+	background-image: url(../images/ROYAL%20ARABIAN%20NIGHT.jpg);
+}
+.Soap6 {
+	background-image: url(../images/OLIVE%20OIL%20NOBLE.jpg);
+}
+.Soap7 {
+	background-repeat: no-repeat;
+	background-image: url(../images/traditionalsoap.jpg);
+}
+.Soap8 {
+	background-repeat: no-repeat;
+	background-image: url(../images/halftraditional.jpg);
+}
+.Soap9 {
+	background-repeat: no-repeat;
+	background-image: url(../images/noblesoap.jpg);
+}
+.Soap10 {
+	background-repeat: no-repeat;
+	background-image: url(../images/herbalsoap.jpg);
+}
+.Soap11 {
+	background-repeat: no-repeat;
+	background-image: url(../images/gift%20box.jpg);
+}
+.Soap12 {
+	background-image: url(../images/gift%20box3.jpg);
+}
+.Soap13 {
+	background-repeat: no-repeat;
+	background-image: url(../images/TourathBag.jpg);
+}
+.Soap14 {
+	background-repeat: no-repeat;
+	background-image: url(../images/shapedsoap.jpg);
+}
+.Soap15 {
+	background-repeat: no-repeat;
+	background-image: url(../images/closet.jpg);
+}
+.navbar-brand {
+	padding-top: 40px;
+}
+.Soap1, .Soap2, .Soap3, .Soap4, .Soap5, .Soap6, .Soap7, .Soap8, .Soap9, .Soap10, .Soap11, .Soap12, .Soap13, .Soap14, .Soap15{
+	width: 100%;
+	height: 300px;
+	margin-bottom: 8px;
+	border: 2px solid #A4C942;
+	overflow: hidden;
+	border-radius: 3px;
+	background-postion: center;
+	background-color: lightgrey;
+}
+
+.formstyle{
+	width: 60%;
+}
+
+
+.btnstyle {
+	background-color: #A4C942;
+	border-width: 0;
+	width: 100px;
+	height: 30px;
+	font-weight: bold;
+}
+.contacttext {
+	width: 40%;
+}
+#backlink a:hover  , a:focus{
+	text-decoration: none;
+	color: #A4C942;
+}
+#backlink a {
+	color: #3A3A3A;
+}
+.arabic {
+	float: none;
+	text-align: right;
+}
+#arabicp {
+	text-align: right;
+	width: 100%;
+}
+
+#arabich1  {
+	text-align: right;
+}
+
+@media (min-width: 768px) { 
+	.floatright {
+		float: right !important;
+	}
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+	.Soap1, .Soap2, .Soap3 , .Soap4, .Soap5, .Soap6, .Soap7, .Soap8, .Soap9, .Soap10, .Soap11, .Soap12, .Soap13, .Soap14, .Soap15{
+	background-position: -30px !important;
+    }
+
+
+}
+
+@media (max-width: 767px) {
+	
+	body {
+		font-size: 1.3em;
+	}
+	body h1 {
+		font-size: 1.7em;
+	}
+	
+  .navbar-brand h1 {
+   margin-top: -20px ;
+   font-size: 3vw !important;
+   }
+	#arabictoggle {
+		float: left;
+		margin-left: 15px;
+		margin-top: 10px;
+	}
+
+  #logo-img {
+	background-repeat: no-repeat;
+	background-image: url(../images/noble%20logo%20x-small.png);
+	width: 60px;
+	height: 55px;
+	margin-top: 5px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	 
+    }
+	
+	#nav-list   {
+	margin-top: 0 !important;
+}
+	
+/*	.carousel-caption{
+	font-size: 10px !important;
+}*/
+    .Soap1, .Soap2, .Soap3 , .Soap4, .Soap5, .Soap6, .Soap7, .Soap8, .Soap9, .Soap10, .Soap11, .Soap12, .Soap13, .Soap14, .Soap15 {
+	width: 360px;
+	margin: 0 auto 8px;
+    }
+	.formstyle{
+	width: 100%;
+}
+
+}
+
+@media (max-width: 440px) {
+	.Soap1, .Soap2, .Soap3 , .Soap5, .Soap6, .Soap10, .Soap11, .Soap12, .Soap14, .Soap15 {
+	width: 280px;
+	margin: 0 auto 8px;
+	background-position: -35px !important;
+    }
+	.Soap4, .Soap8, .Soap9, .Soap13 {
+	width: 280px;
+	margin: 0 auto 8px;
+	background-position: -43px !important;
+    }
+	.Soap7 {
+	width: 280px;
+	margin: 0 auto 8px;
+	background-position: -55px !important;
+	}
+	
+}
+
+.navbar-brand h1 {
+	color: #005E00;
+	font-weight: bold;
+	font-size: 1.7vw;
+	text-shadow: 1px 1px 1px #9D9D9D;
+}
+.navbar-brand a:hover, .navbar-brand a:focus  {
+	text-decoration: none;
+}
+
+#nav-list   {
+	margin-top: 45px;
+	font-size: 1.2em;
+}
+#nav-list a {
+	text-align: center;
+}
+
+#nav-list a:hover {
+	color: #A4C942;
+}
+
+#small-font h3 {
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+
+#small-font p {
+	font-size: 1.2em;
+}
